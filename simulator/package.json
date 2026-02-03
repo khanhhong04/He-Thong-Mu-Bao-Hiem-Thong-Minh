@@ -1,0 +1,19 @@
+{
+  "name": "simulator",
+  "version": "1.0.0",
+  "type": "commonjs",
+  "main": "simulator.js",
+  "scripts": {
+    "start": "node simulator.js",
+    "red": "node simulator.js --scenario red --helmet H001",
+    "traffic": "node simulator.js --scenario traffic --helmet H001",
+    "brake": "node simulator.js --scenario brake --helmet H001",
+    "crash": "node simulator.js --scenario crash_still --helmet H001",
+    "rear_keep": "node simulator.js --scenario rear_end_keep --helmet H001",
+    "rear_fall": "node simulator.js --scenario rear_end_fall --helmet H001"
+  },
+  "dependencies": {
+    "nanoid": "^5.1.6",
+    "yargs": "^17.7.2"
+  }
+}
