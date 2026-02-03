@@ -23,17 +23,17 @@ Khi phát hiện va chạm nghiêm trọng, hệ thống sẽ:
 
 He-Thong-Mu-Bao-Hiem-Thong-Minh/
 │
-├── app/ # Ứng dụng di động (React Native)
+├── app/                     # Ứng dụng di động (React Native)
 │
-├── backend/ # Backend server (Node.js / Express)
+├── backend/                 # Backend server (Node.js / Express)
 │
-├── data_logger/ # Tool thu thập và lưu dữ liệu IMU
+├── data_logger/             # Tool thu thập và lưu dữ liệu IMU
 │
-├── firmware_test/ # Firmware ESP32 (FFT + ML + BLE)
+├── firmware_test/           # Firmware ESP32 (FFT + ML + BLE)
 │
-├── simulator/ # Mô phỏng, phân tích dữ liệu & FFT
+├── simulator/               # Mô phỏng, phân tích dữ liệu & FFT
 │
-├── smart-helmet.code-workspace
+└── smart-helmet.code-workspace
 
 
 
