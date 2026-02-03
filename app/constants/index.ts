@@ -1,0 +1,8 @@
+// app/constants/index.ts
+export const UUIDS = {
+  SERVICE: "6E400001-B5A3-F393-E0A9-E50E24DCCA9E",
+  NOTIFY: "6E400003-B5A3-F393-E0A9-E50E24DCCA9E",
+  WRITE: "6E400002-B5A3-F393-E0A9-E50E24DCCA9E",
+};
+
+export const API_URL = "http://192.168.247.253:3000/api/telemetry"; // ← IP ĐÚNG
