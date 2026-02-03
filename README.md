@@ -21,20 +21,15 @@ Khi phát hiện va chạm nghiêm trọng, hệ thống sẽ:
 
 ## 🧠 Kiến trúc tổng thể hệ thống
 
+```bash
 He-Thong-Mu-Bao-Hiem-Thong-Minh/
-│
 ├── app/                     # Ứng dụng di động (React Native)
-│
 ├── backend/                 # Backend server (Node.js / Express)
-│
 ├── data_logger/             # Tool thu thập và lưu dữ liệu IMU
-│
 ├── firmware_test/           # Firmware ESP32 (FFT + ML + BLE)
-│
 ├── simulator/               # Mô phỏng, phân tích dữ liệu & FFT
-│
 └── smart-helmet.code-workspace
-
+```
 
 
 ---
